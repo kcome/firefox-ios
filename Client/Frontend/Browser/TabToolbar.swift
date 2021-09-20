@@ -42,6 +42,7 @@ protocol TabToolbarDelegate: AnyObject {
     func tabToolbarDidLongPressTabs(_ tabToolbar: TabToolbarProtocol, button: UIButton)
     func tabToolbarDidPressSearch(_ tabToolbar: TabToolbarProtocol, button: UIButton)
     func tabToolbarDidPressAddNewTab(_ tabToolbar: TabToolbarProtocol, button: UIButton)
+    func tabToolbarDidSwipeToChangeTabs(_ tabToolbar: TabToolbarProtocol, direction: UISwipeGestureRecognizer.Direction)
 }
 
 enum MiddleButtonState {

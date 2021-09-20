@@ -134,6 +134,17 @@ extension BrowserViewController: TabToolbarDelegate, PhotonActionSheetProtocol {
         showTabTray()
         TelemetryWrapper.recordEvent(category: .action, method: .press, object: .tabToolbar, value: .tabView)
     }
+    
+    func tabToolbarDidSwipeToChangeTabs(_ tabToolbar: TabToolbarProtocol, direction: UISwipeGestureRecognizer.Direction) {
+        if direction != .left && direction != .right { return }
+        guard let selectedTab = tabManager.selectedTab else { return }
+        let tabs = selectedTab.isPrivate ? tabManager.privateTabs : tabManager.normalTabs
+        guard let selectedTab = tabManager.selectedTab, let index = tabs.firstIndex(where: { $0 === selectedTab }) else { return }
+        let newTabIndex = index + (direction == .left ? 1 : -1)
+        if newTabIndex >= 0 && newTabIndex < tabs.count {
+            tabManager.selectTab(tabs[newTabIndex], previous: selectedTab)
+        }
+    }
 
     func getTabToolbarLongPressActionsForModeSwitching() -> [PhotonActionSheetItem] {
         guard let selectedTab = tabManager.selectedTab else { return [] }

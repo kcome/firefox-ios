@@ -232,6 +232,27 @@ class URLBarView: UIView {
 
         // Make sure we hide any views that shouldn't be showing in non-overlay mode.
         updateViewsForOverlayModeAndToolbarChanges()
+        
+        addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didSwipeToolbar(_:))))
+    }
+
+    private var previousX: CGFloat = 0.0
+    @objc private func didSwipeToolbar(_ pan: UIPanGestureRecognizer) {
+        switch pan.state {
+        case .began:
+            previousX = pan.translation(in: self).x
+        case .ended:
+            let point = pan.translation(in: self)
+            if point.x > previousX + 50 {
+                tabToolbarDelegate?.tabToolbarDidSwipeToChangeTabs(self, direction: .right)
+                previousX = point.x
+            } else if point.x < previousX - 50 {
+                tabToolbarDelegate?.tabToolbarDidSwipeToChangeTabs(self, direction: .left)
+                previousX = point.x
+            }
+        default:
+            break
+        }
     }
 
     fileprivate func setupConstraints() {
