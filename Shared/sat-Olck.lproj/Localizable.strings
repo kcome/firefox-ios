@@ -457,6 +457,12 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "ᱚᱪᱚᱜᱽ ᱢᱮ";
 
+/* The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings. */
+"FirefoxHomepage.ContextualMenu.Settings.v101" = "ᱥᱟᱡᱟᱣ ᱠᱚ";
+
+/* The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works. */
+"FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "ᱟᱞᱮ ᱠᱟᱹᱢᱤᱠᱚ ᱟᱨ ᱟᱢᱟᱜ ᱱᱤᱥᱚᱱ ᱠᱚ";
+
 /* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
 "FirefoxHomepage.Shortcuts.Sponsored.v100" = "ᱠᱟᱹᱢᱤᱼᱤᱭᱟᱹ";
 
@@ -716,7 +722,7 @@
 "Keyboard.Shortcuts.AddBookmark" = "ᱵᱩᱠᱢᱟᱨᱠ ᱥᱟᱯᱲᱟᱣ";
 
 /* A label indicating the keyboard shortcut of clearing recent history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
-"Keyboard.Shortcuts.ClearRecentHistory" = "ᱱᱤᱛᱚᱜᱼᱟᱜ ᱱᱟᱜᱟᱢ ᱯᱷᱟᱨᱪᱟᱭ ᱢᱮ...";
+"Keyboard.Shortcuts.ClearRecentHistory" = "ᱱᱤᱛᱚᱜᱼᱟᱜ ᱱᱟᱜᱟᱢ ᱯᱷᱟᱨᱪᱟᱭ ᱢᱮ";
 
 /* A label indicating the keyboard shortcut of downloading a link the user taps on. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Keyboard.Shortcuts.DownloadLink" = "ᱰᱟᱩᱱᱞᱚᱰ ᱞᱤᱝᱠ";
@@ -1361,6 +1367,9 @@
 /* Text of the prompt user to setup the camera authorization. */
 "ScanQRCode.PermissionError.Message" = "ᱫᱚᱭᱟᱠᱟᱛᱮ Firefox ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜ ᱠᱮᱢᱨᱟ ᱵᱮᱵᱷᱟᱨ ᱪᱷᱚᱭ ᱮᱢ ‘ᱥᱟᱡᱟᱣ’ -> ‘ᱫᱟᱱᱟᱲ’ -> ‘ᱠᱮᱢᱨᱟ’ ᱾";
 
+/* Text of the prompt to setup the camera authorization for the Scan QR Code feature. */
+"ScanQRCode.PermissionError.Message.v100" = "ᱥᱟᱫᱷᱚᱱ ‘ᱥᱟᱡᱟᱣ ᱠᱚ’> ‘Firefox’ ᱾ Firefox ᱫᱚ ᱠᱮᱢᱨᱟ ᱟᱫᱮᱨ ᱪᱷᱚᱟᱭᱮᱢ ᱾";
+
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "QR ᱠᱚᱰ ᱥᱠᱟᱱ ᱢᱮ";
 
@@ -1620,9 +1629,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "ᱥᱟᱫᱷᱟᱨᱚᱱ";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Firefox ᱚᱲᱟᱜ ᱥᱟᱦᱴᱟ ᱨᱮ ᱡᱟᱦᱟ ᱧᱮᱞ ᱥᱮᱱᱟᱮᱫ ᱢᱮᱭᱟ ᱚᱱᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱾";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "ᱦᱮᱡ ᱨᱩᱟᱹᱲᱚᱜ ᱢᱮ";
 
@@ -1652,9 +1658,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "ᱠᱷᱩᱞᱟᱹᱜ ᱠᱟᱱ ᱥᱠᱨᱤᱱ";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Firefox ᱚᱲᱟᱜ ᱥᱟᱦᱟᱴᱟ";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "ᱠᱟᱸᱛᱷᱪᱤᱛᱟᱹᱨ";
