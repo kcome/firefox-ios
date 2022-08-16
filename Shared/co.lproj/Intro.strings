@@ -26,7 +26,7 @@
 "Intro.Slides.Firefox.Account.Sync.Title" = "Sincrunizate Firefox trà i vostri apparechji";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Impiegate qualsisia appiecazione (è micca solu Mail) cù Firefox.";
+"Intro.Slides.Mail.Description" = "Impiegate qualsiasi appiecazione (è micca solu Mail) cù Firefox.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Ci hè una lettera per voi… cù l’ozzioni";
@@ -50,7 +50,7 @@
 "Intro.Slides.Search.Title" = "Ricercate à a vostra manera";
 
 /* Description for the 'Sync' panel in the First Run tour. */
-"Intro.Slides.TrailheadSync.Description" = "Cunnittetevi à u vostu contu per lancià a sincrunizazione è accede à d’altri funzioni.";
+"Intro.Slides.TrailheadSync.Description" = "Cunnittitevi à u vostu contu per lancià a sincrunizazione è accede à d’altri funzioni.";
 
 /* Title for the second panel 'Sync' in the First Run tour. */
 "Intro.Slides.TrailheadSync.Title.v2" = "Sincrunizate e vostre indette, a vostra cronolugia è e vostre parolle d’intesa cù u vostru telefonu.";
