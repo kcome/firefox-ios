@@ -46,9 +46,6 @@
 /* On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar. */
 "ActivityStream.JumpBackIn.TabGroup.SiteCount" = "Unghjette : %d";
 
-/* On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did. */
-"ActivityStream.JumpBackIn.TabGroup.Title" = "A vostra ricerca di « %@ »";
-
 /* A string used to signify the start of the Recently Saved section in Home Screen. */
 "ActivityStream.Library.Title" = "Arregistrati pocu fà";
 
@@ -210,7 +207,7 @@
 "BreachAlerts.BreachDate" = "Sta fughjita di dati hè accaduta u";
 
 /* Description of what a breach is */
-"BreachAlerts.Description" = "Parolle d’intesa sò state palisate o arrubate dapoi l’ultima mudificazione di a vostra parolla d’intesa. Per prutege stu contu, cunnittetevi à u situ è mudificate a vostra parolla d’intesa.";
+"BreachAlerts.Description" = "Parolle d’intesa sò state palisate o arrubate dapoi l’ultima mudificazione di a vostra parolla d’intesa. Per prutege stu contu, cunnittitevi à u situ è mudificate a vostra parolla d’intesa.";
 
 /* Link to monitor.firefox.com to learn more about breached passwords */
 "BreachAlerts.LearnMoreButton" = "Sapene di più";
@@ -295,9 +292,6 @@
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device. */
 "ContextualHint.SearchBarPlacement.NewUsers" = "Per facilità a stampittera d’infurmazione, a pusizione predefinita di a barra d’attrezzi hè inghjò.";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature. */
-"ContextualHints.Homepage.PersonalizedHome" = "A vostra pagina d’accolta Firefox persunalizata vi permette avà di rivene d’una manera faciule induve vo avete lasciatu. Ci truverete l’unghjette, l’indette, è i risultati di ricerca recente.";
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar. */
 "ContextualHints.SearchBarPlacement.CallToAction" = "Preferenze di a barra d’attrezzi";
@@ -457,6 +451,12 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "Caccià";
 
+/* The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings. */
+"FirefoxHomepage.ContextualMenu.Settings.v101" = "Preferenze";
+
+/* The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works. */
+"FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "I nostri finanzieri è a vostra vita privata";
+
 /* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
 "FirefoxHomepage.Shortcuts.Sponsored.v100" = "Finanziatu";
 
@@ -503,7 +503,7 @@
 "FxA.ResendEmail" = "Mandà u messaghji torna";
 
 /* FxA sign in view subtitle */
-"fxa.signin.camera-signin" = "Cunnittetevi cù u vostru apparechju-fotò";
+"fxa.signin.camera-signin" = "Cunnittitevi cù u vostru apparechju-fotò";
 
 /* FxA sign in create account label. */
 "fxa.signin.create-account-pt-1" = "Sincrunizà Firefox trà i vostri apparechji cù un contu.";
@@ -593,7 +593,7 @@
 "HistoryPanel.EmptySyncedTabsNullState.Description" = "E vostre unghjette da l’altri apparechji s’affissanu quì.";
 
 /* Description for the empty synced tabs 'not signed in' state in the History Panel */
-"HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description" = "Cunnittetevi per affissà a lista di l’unghjette di i vostri altri apparechji.";
+"HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description" = "Cunnittitevi per affissà a lista di l’unghjette di i vostri altri apparechji.";
 
 /* Description for the empty synced tabs 'not yet verified' state in the History Panel */
 "HistoryPanel.EmptySyncedTabsPanelNotYetVerifiedState.Description" = "U vostru contu deve esse verificatu.";
@@ -704,7 +704,7 @@
 "InactiveTabs.TabTray.CloseButtonTitle" = "Chjode tutte l’unghjette inattive";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
-"Increase text size" = "Aummentà a dimensione di u testu";
+"Increase text size" = "Aumentà a dimensione di u testu";
 
 /* Relative time for a tab that was visited within the last few moments. */
 "just now" = "una stonda fà";
@@ -914,7 +914,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filtrà";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "L’identificazioni di cunnessione arregistrate seranu affissate quì. S’è vo avete arregistratu e vostre identificazioni di cunnessione Firefox nant’à un altru apparechju, cunnittetevi à u vostru contu Firefox.";
+"LoginsList.NoLoginsFound.Description" = "L’identificazioni di cunnessione arregistrate seranu affissate quì. S’è vo avete arregistratu e vostre identificazioni di cunnessione Firefox nant’à un altru apparechju, cunnittitevi à u vostru contu Firefox.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Alcuna identificazione di cunnessione trova";
@@ -1077,9 +1077,6 @@
 /* Label for the share button in the menu page. Pressing this button open the share menu to share the current website. */
 "Menu.Share.v99" = "Sparte";
 
-/* Label for the button, displayed in the menu, takes you to sync sign in when pressed. */
-"Menu.SignInToSync.Label.v99" = "Cunnettesi à Sync";
-
 /* Toast displayed to the user after a tab has been sent successfully. */
 "Menu.TabSent.Confirm" = "Unghjetta mandata";
 
@@ -1181,9 +1178,6 @@
 
 /* label for the menu item that lets you remove a website from the tracking protection whitelist */
 "Menu.TrackingProtectionWhitelistRemove.Title" = "Attivà per stu situ";
-
-/* The title for the option to view the What's new page. */
-"Menu.WhatsNew.Title" = "Ciò chì hè novu";
 
 /* Accessibility label for Mobile Device image in remote tabs list */
 "mobile device" = "apparechju mobile";
@@ -1373,7 +1367,7 @@
 /* Accessibility Label for the tab toolbar Search button
    Navigation title for search settings.
    Open search section of settings */
-"Search" = "Ricerca";
+"Search" = "Ricercà";
 
 /* The text shown in the URL bar on about:home */
 "Search or enter address" = "Ricerca o indirizzu";
@@ -1580,9 +1574,6 @@
 /* Option choice in display theme settings for light theme */
 "Settings.DisplayTheme.OptionLight" = "Chjaru";
 
-/* Display (theme) settings footer describing how the brightness slider works. */
-"Settings.DisplayTheme.SectionFooter" = "U tema cambierà autumaticamente secondu a lucidezza di u vostru screnu. Pudete definisce u sogliu quandu u tema deve cambià. U chjerchju indicheghja a lucidezza attuale.";
-
 /* Switch mode settings section title */
 "Settings.DisplayTheme.SwitchMode.SectionHeader" = "Cambià di modu";
 
@@ -1626,9 +1617,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "Generale";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Sciglite u cuntenutu chì si vede nant’à a pagina d’accolta di Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "Rivene à st’unghjetta";
 
@@ -1658,9 +1646,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "Screnu d’apertura";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Pagina d’accolta di Firefox";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "Sfondulu di screnu";
@@ -2102,7 +2087,7 @@
 "SyncState.Clients.Title" = "Clienti alluntanati";
 
 /* Title for Sync status message when synchronization failed to complete */
-"SyncState.Failed.Title" = "Fiascu di a sincrunisazione";
+"SyncState.Failed.Title" = "Fiascu di a sincrunizazione";
 
 /* The History sync component, used in SyncState.Partial.Title */
 "SyncState.History.Title" = "Cronolugia";
@@ -2178,9 +2163,6 @@
 
 /* In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs */
 "TabTray.OtherTabs.Title" = "Altre unghjette";
-
-/* The title for the tab tray in private mode */
-"TabTray.PrivateTitle" = "Unghjette private";
 
 /* Describes what the Recently Closed tabs behavior is for users unfamiliar with it. */
 "TabTray.RecentlyClosed.Description" = "L’unghjette sò dispunibule quì durante 30 ghjorni. Dopu à stu periudu, l’unghjette seranu chjose autumaticamente.";
